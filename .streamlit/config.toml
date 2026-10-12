@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#6C63FF"
+backgroundColor = "#FFFDF7"
+secondaryBackgroundColor = "#F6F3EA"
+textColor = "#1D1D1F"
+font = "sans serif"
+
+[client]
+# 사이드바 내비게이션은 utils/styles.py 에서 직접 그린다.
+showSidebarNavigation = false
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 50
